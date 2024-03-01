@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>计算</title>
+</head>
+
+<body>
+<div id="app"></div>
+<div id="result"></div>
+<script type="module">
+  import { floatCount } from "./operation.js";
+  let float = new floatCount();
+  let a  = float.multiply(3.1565895, 2.467, 3)
+  document.getElementById('result').textContent ='计算结果' + a;
+</script>
+</body>
+
+</html>
